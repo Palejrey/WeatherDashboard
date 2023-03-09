@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <nav><p>Weather Dashboard</p></nav>
+    <main>
+        <div id="search-bar">
+            <div id="search-button-box">
+                <p>Search for a city:</p>
+                <input type="text" name="enter-city" id="input-box">
+                <button id ="search">search</button></div>
+            <div id="search-results"></div>
+        </div>
+        <div id="city-data">
+            <div id="city-specific">
+                <div class = "city-today" id ="city-date"></div>
+                <div class = "city-today" id ="temp"></div>
+                <div class = "city-today" id ="wind"></div>
+                <div class = "city-today" id ="humidity"></div>
+            </div>
+            <div id="header">5-Day Forecast</div>
+            <div id="five-day-forecast">
+                <div class ="days" id="Day-1">
+                    <div class="days-textbox" id="1"></div>
+                    <div class="days-textbox" id="2"></div>
+                    <div class="days-textbox" id="3"></div>
+                    <div class="days-textbox" id="4"></div>
+                    <div class="days-textbox" id="5"></div>
+                </div>
+                <div class ="days" id="Day-2">
+                    <div class="days-textbox" id="6"></div>
+                    <div class="days-textbox" id="7"></div>
+                    <div class="days-textbox" id="8"></div>
+                    <div class="days-textbox" id="9"></div>
+                    <div class="days-textbox" id="10"></div>
+                </div>
+                <div class ="days" id="Day-3">
+                    <div class="days-textbox" id="11"></div>
+                    <div class="days-textbox" id="12"></div>
+                    <div class="days-textbox" id="13"></div>
+                    <div class="days-textbox" id="14"></div>
+                    <div class="days-textbox" id="15"></div>
+                </div>
+                <div class ="days" id="Day-4">
+                    <div class="days-textbox" id="16"></div>
+                    <div class="days-textbox" id="17"></div>
+                    <div class="days-textbox" id="18"></div>
+                    <div class="days-textbox" id="19"></div>
+                    <div class="days-textbox" id="20"></div>
+                </div>
+                <div class ="days" id="Day-5">
+                    <div class="days-textbox" id="21"></div>
+                    <div class="days-textbox" id="22"></div>
+                    <div class="days-textbox" id="23"></div>
+                    <div class="days-textbox" id="24"></div>
+                    <div class="days-textbox" id="25"></div>
+                </div>
+            </div>
+        </div>
+
+    </main>
+    <script src="./script.js"></script>
+    <script src="path/to/dayjs/dayjs.min.js"></script>
+</body>
+</html>
